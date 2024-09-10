@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  smartpin-db:
+    image: postgres:latest
+    container_name: smartpin-db
+    environment:
+      - POSTGRES_DB=smartpin
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - ./.docker/db:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
