@@ -2,7 +2,7 @@
 
 namespace CommonDotNet;
 
-public class DateTimeTests
+public class DateTimeKindTests
 {
     [Fact]
     public void CompareDateTimesWithAnyKinds()
