@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace CommonDotNet;
+namespace CommonDotNet.DateTimes;
 
 public class DateTimeKindTests
 {
